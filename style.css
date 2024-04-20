@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    --bg: #f9f0d3;
+    --color-text: #000000;
+    --color-border: #000000;
+    --btn-active: #bcbfc2;
+}
+
+/* Main */
+.container{
+    padding: 5rem 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background: var(--bg);
+    grid-template-rows: 2fr 10fr;
+}
+
+.banner-header {
+    color: red;
+    text-align: center;
+    background: burlywood;
+    font-size: large;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    color: yellowgreen;
+}
+
+.app-container {
+    margin: 0 auto;
+    display: grid;
+    width: 50%;
+    align-items: center;
+}
+
+.input {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.generation {
+    margin: 0 auto;
+    display: block;
+    width: min-content;
+    align-items: center;
+    text-align: center;
+}
+
+.convertion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.output {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.reset {
+    margin: 0 auto;
+    display: block;
+    width: 5%;
+    align-items: center;
+    text-align: center;
+}
