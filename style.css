@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+
 html{
-    --bg: #f9f0d3;
     --color-text: #000000;
     --color-border: #000000;
     --btn-active: #bcbfc2;
+}
+
+body {
+    background-color: #ededed; 
 }
 
 /* Main */
@@ -23,17 +27,30 @@ html{
     grid-template-rows: 2fr 10fr;
 }
 
-.banner-header {
-    color: red;
+.banner-header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
     text-align: center;
-    background: burlywood;
-    font-size: large;
-    font-weight: 500;
+    background: #0795df;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.banner-header h1 span {
+    margin-bottom: 0.3rem; 
+}
+
+.banner-header h1 span img {
+    width: 400px; 
+    height: auto; 
 }
 
 h2 {
     text-align: center;
-    color: yellowgreen;
+    color: rgb(0, 0, 0);
 }
 
 .app-container {
